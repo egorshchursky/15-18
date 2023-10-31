@@ -1,0 +1,41 @@
+#actionForm {
+    display: flex;
+    justify-content: center;
+}
+
+#actionForm_row {
+    border: 2px black solid;
+    padding: 15px;
+}
+
+#btn_send {
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    background-color: black;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#btn_clear {
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    background-color: black;
+    color: white;
+}
+
+#title {
+    font-size: 15pt;
+}
+
+#message {
+    height: 100px;
+    width: 300px;
+}
+#name {
+    width: 300px;
+}
+#email {
+    width: 300px;
+}

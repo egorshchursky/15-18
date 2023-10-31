@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>js card</title>
+</head>
+<body>
+    <form id="actionForm">
+        <div id="actionForm_row">
+            <p id="title"><b>Contact form</b></p>
+            <p><b>Please fill all enemies</b></p>
+            <span>Name:</span> <br>
+            <input type="text" id="name" placeholder="Введите имя" required /> <br><br>
+            <span>E-mail:</span> <br>
+            <input type="email" id="email" placeholder="Введите почту" required /> <br> <br>   
+            <span>Message:</span><br>
+            <input type="message" id="message" placeholder="Введите сообщение" required /> <br> <br>
+
+            <div id="btn">
+                 <button type="submit" id="btn_send">Send</button>
+                 <button id="btn_clear">Clear</button>
+            </div>        
+        </div>
+    </form>
+    <script src="js.js"></script>
+</body>
+</html>
